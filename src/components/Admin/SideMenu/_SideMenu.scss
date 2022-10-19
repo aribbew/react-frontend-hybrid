@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
+//Custom Font Variable
+$font-bold: 'Be Vietnam Pro', sans-serif;
+
+
+body{
+    font-family: $font-bold;
+}
+
+.SideMenu-container{
+//  background-color:  #d24f51a0;
+ height: 100vh;
+ width: 200px;
+ position: absolute;
+ top: 0;
+ .side-menu-list{
+    .side-container-list{
+        padding:15px 20px;
+        gap: 10px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        font-size: 18px;
+        background-color: transparent;
+        border: none;
+        text-align: inherit;
+        width: 200px;
+        
+    }
+    .side-container-list2{
+        padding:15px 20px;
+        gap: 5px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        font-size: 18px;
+        display:flex;
+        align-items: center;
+        width:200px;
+        height:57px;
+        position: relative;
+        background-color: transparent;
+        border: none;
+        .title2{
+            margin-left:0;
+            padding-right: 0;
+            position: absolute;
+            right: 100px;
+        }
+        .container{
+            display: flex;
+            align-items: center;
+            height: 57px;
+            width:200px;
+
+
+            .icon{
+                width:18px;
+                height:18px;
+
+                
+        }
+        .icon-bike{
+            background-image: url("../../../styles/img/SVG/tableicon.svg");
+            background-repeat: no-repeat;
+            width: 200px;
+            position: absolute;
+            z-index: 2;
+            align-items: center;
+        }
+    }
+    .container:hover{
+        .icon-bike{
+            background-image: url("../../../styles/img/SVG/tableiconred.svg");
+
+        }
+    }
+    
+    }
+    .side-container-list:hover{
+        color: red;
+        background-color: #d24f5154;
+        transition: all 0.3s ease;
+        border-radius: 0 10px 10px 0;
+    }
+    .side-container-list2:hover{
+        color: red;
+        background-color: #d24f5154;
+        transition: all 0.3s ease;
+        border-radius: 0 10px 10px 0;
+    }
+
+ }
+ .sideBar{
+     display: flex;
+     align-items: center;
+     gap: 3px;
+    //  background-color: #D24F51;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     .logo{
+        height:20px;
+        width:20px;
+     }
+    .title{
+        margin-left:5px;
+    }
+ }
+}
+    .content{
+        position:absolute;
+        right: 0;
+        padding: 20px;
+        width: calc(100% - 200px);
+    }
+
+

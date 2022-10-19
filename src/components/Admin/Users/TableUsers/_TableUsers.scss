@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
+$font-bold: 'Be Vietnam Pro', sans-serif;
+
+    
+    
+    .font{
+        .css-1ygcj2i-MuiTableCell-root{
+            font-family: $font-bold;
+        }  
+        .css-1ex1afd-MuiTableCell-root {
+            font-family: $font-bold;
+        }
+    }    
+    
+    
+    .status{
+        .check{
+            color: green;
+        }
+        .close{
+            color: red;
+        }
+    }
+    .close{
+        color: red;
+    }

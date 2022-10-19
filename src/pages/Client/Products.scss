@@ -1,0 +1,21 @@
+.back-button{
+    background-color: #DB2828;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.back-button:hover{
+    background-color: transparent;
+    padding: 5px;
+    border-radius: 20px;
+    border: 1px solid #DB2828;
+}
+
+a{
+        text-decoration: none;
+        color: white;
+}
+a:hover{
+        text-decoration: none;
+        color: black;
+}

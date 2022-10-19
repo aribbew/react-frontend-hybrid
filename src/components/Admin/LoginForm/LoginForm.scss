@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
+
+$font-bold: 'Be Vietnam Pro', sans-serif;
+
+.form_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .form{
+        display: grid;
+        justify-items: center;
+        & input{
+            font-family: $font-bold;
+            border-radius: 10px;
+            border: 1px solid;
+            margin: 4px;
+            height: 25px;
+            width: 100%;
+    }
+    & .enviar{
+        color: white;
+        background-color: #D24F51;
+        font-family: $font-bold;
+        border-radius: 10px;
+        border: 1px solid;
+        margin: 4px;
+        height: 25px;
+        width: 100%;
+    }
+}
+}
